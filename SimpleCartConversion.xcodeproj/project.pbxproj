@@ -23,7 +23,6 @@
 		3DF79A6E1F59B670001D7D8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF79A6C1F59B670001D7D8E /* Main.storyboard */; };
 		3DF79A701F59B670001D7D8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF79A6F1F59B670001D7D8E /* Assets.xcassets */; };
 		3DF79A731F59B670001D7D8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF79A711F59B670001D7D8E /* LaunchScreen.storyboard */; };
-		3DF79A7E1F59B670001D7D8E /* SimpleCartConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF79A7D1F59B670001D7D8E /* SimpleCartConversionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 		3DF79A721F59B670001D7D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DF79A741F59B670001D7D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DF79A791F59B670001D7D8E /* SimpleCartConversionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCartConversionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DF79A7D1F59B670001D7D8E /* SimpleCartConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCartConversionTests.swift; sourceTree = "<group>"; };
 		3DF79A7F1F59B670001D7D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,7 +160,6 @@
 			children = (
 				3D4D39B11F5C5FEA00863F85 /* test */,
 				3DEA5F181F5B2A8E008DFB3E /* mock */,
-				3DF79A7D1F59B670001D7D8E /* SimpleCartConversionTests.swift */,
 				3DF79A7F1F59B670001D7D8E /* Info.plist */,
 				3D4D39AF1F5C593C00863F85 /* service_testData_OK.json */,
 			);
@@ -293,7 +290,6 @@
 				3D4D39B51F5C600900863F85 /* AppControllerTest.swift in Sources */,
 				3DEA5F1C1F5B309F008DFB3E /* MockURLSession.swift in Sources */,
 				3D19DCD31F5C612C00C6693F /* BasketViewModelTest.swift in Sources */,
-				3DF79A7E1F59B670001D7D8E /* SimpleCartConversionTests.swift in Sources */,
 				3D19DCD51F5C656000C6693F /* CheckoutViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
